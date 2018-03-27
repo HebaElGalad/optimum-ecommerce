@@ -1,8 +1,47 @@
 /* === DEFINE COUSTOM COLORS ===
-
-
-
+	Red: #f63c3c;
+	LIGHT GREY: #fafafa;
+	MID-GREY: #352d2f;
+	DARK GREY: #30282a;
  =========================== */
+
+ /* === COUSTOM BACKGROUNDS === */
+ .bg-danger-modified {
+ 	background-color: #f63c3c;
+ }
+
+ .bg-light-modified {
+ 	background-color: #fafafa;
+ }
+
+ .bg-secondary-modified {
+ 	background-color: #352d2f;
+ }
+
+ .bg-dark-modified {
+ 	background-color: #30282a;
+ }
+
+ .btn-danger-modified {
+ 	background-color: #f63c3c;
+ 	border-color: #f63c3c;
+ 	color: #fff;
+ }
+
+ .text-danger-modified {
+ 	color: #f63c3c;
+ }
+
+.card:hover{
+	box-shadow: 4px 8px 32px 8px rgba(0, 0, 0, 0.1);
+}
+
+.round-counter {
+	width: 8rem;
+	height: 8rem;
+}
+
+
 
 /* === CUSTOM FONTS CLASSES === */
 
