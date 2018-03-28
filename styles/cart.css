@@ -1,0 +1,125 @@
+*{
+	box-sizing: border-box;
+}
+
+.main-content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #E6E6E6;
+	text-align: center;
+}
+
+td img {
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+
+thead{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+thead td {
+	padding: 10px;
+}
+
+.delete-and-save {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-decoration: none;
+	display: block;
+}
+
+#coupon{
+	margin-top: 20px;
+}
+
+#total{
+	text-align: right;
+	margin-right: 20%;
+	margin-bottom: 100px;
+}
+
+.input-quantity{
+	width: 50px;
+	text-align: center;
+	margin-left: 5px;
+}
+
+h1 {
+	color: #585858;
+	margin-top: 20px;
+}
+
+
+
+
+
+ /* === COUSTOM BACKGROUNDS === */
+ .bg-danger-modified {
+ 	background-color: #f63c3c;
+ }
+
+ .bg-light-modified {
+ 	background-color: #fafafa;
+ }
+
+ .bg-secondary-modified {
+ 	background-color: #352d2f;
+ }
+
+ .bg-dark-modified {
+ 	background-color: #30282a;
+ }
+
+ .btn-danger-modified {
+ 	background-color: #f63c3c;
+ 	border-color: #f63c3c;
+ 	color: #fff;
+ }
+
+ .text-danger-modified {
+ 	color: #f63c3c;
+ }
+
+
+
+
+
+/* === RESPONSIVE TYPOGRAPHY === */
+html {
+	font-size: 1rem;
+}
+
+@media (max-width: 575.98px) { /*== xs screens ==*/
+	html {
+	 font-size: 0.75rem;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { /*== sm screens ==*/
+	html {
+	 font-size: 0.9rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { /*== md screens ==*/
+	html {
+	 font-size: 1rem;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { /*== lg screens ==*/
+	html {
+	 font-size: 1rem;
+	}
+}
