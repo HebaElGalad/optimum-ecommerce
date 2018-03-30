@@ -22,10 +22,29 @@
  	background-color: #30282a;
  }
 
+ .btn-dark-modified {
+ 	background-color: #30282a;
+ 	border-color: #30282a;
+ 	color: #fff;
+ }
+
  .btn-danger-modified {
  	background-color: #f63c3c;
  	border-color: #f63c3c;
  	color: #fff;
+ }
+
+ .btn-dark-modified:hover {
+ 	background-color: #221c1e;
+ }
+
+ .btn-danger-modified:hover {
+ 	background-color: #db3131;
+ }
+
+ a:hover {
+ 	color: #fff;
+ 	text-decoration: none;
  }
 
  .text-danger-modified {
@@ -39,6 +58,11 @@
 .round-counter {
 	width: 8rem;
 	height: 8rem;
+}
+
+.carousel-modified {
+	width: 75%;
+	margin: 0 auto;
 }
 
 
