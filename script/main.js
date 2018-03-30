@@ -86,16 +86,34 @@ function add_best_seller(arrgument){
 }
 
 
-// var contentCard = $('.content').first();
+// Button Search gp
+$('.filter-btn').on('click', filter_products);
 
-// function add_to_page(){
-// 	contentCard.addClass("book product").attr("id", movie2.id);
-// 	contentCard.find('a:first').append($('<img>').addClass('card-img-top').attr({src: movie2.picture_url, alt: movie2.picture_alt}));
-// 	contentCard.last().find('h2').append($('<a href=#>').addClass("text-dark text-uppercase name").text(movie2.name));
-// 	contentCard.last().find('h3').append($('<a href=#>').addClass("text-info category").text(movie2.category));
-// 	contentCard.last().find('p:nth-last-of-type(1)').addClass("price").html(movie2.price);
-// }
-
+function filter_products(event) {
+	var userSelectedButton = $(event.target).val();
+	if (userSelectedButton === 'product') {
+		$('.book').show();
+		$('.movie').show();
+		$('.album').show();
+	} 
+	if (userSelectedButton === 'book') {
+		$('.book').show();
+		$('.movie').hide();
+		$('.album').hide();
+		// $('.filter-btn').val('product').removeClass('btn-danger-modified').addClass('btn-light bg-white');
+		// $('.filter-btn').val('book').addClass('btn-danger-modified').removeClass('btn-light bg-white');
+	} 
+	if (userSelectedButton === 'movie') {
+		$('.book').hide();
+		$('.movie').show();
+		$('.album').hide();
+	} 
+	if (userSelectedButton === 'album') {
+		$('.book').hide();
+		$('.movie').hide();
+		$('.album').show();
+	}
+}
 
 // ADD TO CART
 
