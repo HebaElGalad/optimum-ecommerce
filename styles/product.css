@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+
+.main-content {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.item-img {
+	width: 20%;
+	float: left;
+	margin-right: 20px;
+}
+
+.item-details {
+	width: 50%;
+	float: left;
+	margin-right: 20px;
+}
+
+.price-details {
+	width: 25%;
+	float: left;
+	padding-top: 70px;
+}
+
+.input-quantity{
+	width: 50px;
+}
+
+.item-details span {
+	font-weight: bold;
+}
+.price-details span {
+	font-weight: bold;
+}
+
+.quntity p {
+	float: left;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.quntity input {
+	float: left;
+}
+
+
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+
+
+
+ .bg-danger-modified {
+ 	background-color: #f63c3c;
+ }
+
+ .bg-light-modified {
+ 	background-color: #fafafa;
+ }
+
+ .bg-secondary-modified {
+ 	background-color: #352d2f;
+ }
+
+ .bg-dark-modified {
+ 	background-color: #30282a;
+ }
+
+ .btn-danger-modified {
+ 	background-color: #f63c3c;
+ 	border-color: #f63c3c;
+ 	color: #fff;
+ }
+
+ .text-danger-modified {
+ 	color: #f63c3c;
+ }
+
+
+
+
+
+/* === RESPONSIVE TYPOGRAPHY === */
+html {
+	font-size: 1rem;
+}
+
+@media (max-width: 575.98px) { /*== xs screens ==*/
+	html {
+	 font-size: 0.75rem;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { /*== sm screens ==*/
+	html {
+	 font-size: 0.9rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { /*== md screens ==*/
+	html {
+	 font-size: 1rem;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { /*== lg screens ==*/
+	html {
+	 font-size: 1rem;
+	}
+}
